@@ -1,0 +1,115 @@
+  body {
+    background: #f9f9f9;
+    font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-size: 13px;
+    color:#333;
+  }
+
+  a, a:hover {
+    color: #369;
+    text-decoration:none;
+  }
+
+  a:hover {
+    text-decoration:underline;
+  }
+
+  #container {
+    width: 75%;
+    margin: 0 auto;
+    background-color: #FFF;
+    padding: 20px 40px;
+    border: solid 1px #eee;
+    margin-top: 20px;
+  }
+
+  #flash_notice, #flash_error {
+    padding: 15px;
+    margin: 10px 0;
+  }
+
+  #flash_notice {
+    background-color: #FEEFB3;
+    border: 1px solid #ffe26f;
+    color:#9F6000;
+  }
+
+  #flash_error {
+    background-color: #f9e5e0;
+    border: 1px solid #ffd0c4;
+    color:#A30000;
+  }
+
+  #flash_error li {
+    margin-left: 15px;
+  }
+
+  #user_nav {
+    float: right;
+    margin-top:20px;
+  }
+
+  #logo {
+    float:left;
+  }
+
+  #logo h1 a {
+    color:#333;
+    text-decoration:none;
+  }
+
+  input[type=text], input[type=password], textarea, select {
+    border:0;
+    border:1px solid #ccc;
+    padding:3px;
+    font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-size: 13px;
+    color:#444;
+  }
+
+  select {
+    background:#f8f8f8;
+  }
+
+  input[type=text]:focus, input[type=password]:focus, textarea:focus {
+    border:1px solid #aaa;
+  }
+
+  * {
+    outline:none;
+  }
+
+  .clear {
+    clear:both;
+  }
+
+
+  #post_body {
+    height:150px;
+    width:400px;
+  }
+
+  .listing-separator {
+    border-bottom:1px solid #e9e9e9;
+    margin:20px 0 10px 0;
+  }
+
+  label {
+    float:left;
+    font-weight:bold;
+    width:70px;
+    padding-top:5px;
+  }
+
+  .post-meta {
+    color:#aaa;
+  }
+
+  hr {
+    background:#eee;
+    border-bottom:1px solid #f8f8f8;
+  }
+
+  .category {
+    color:#777;
+  }

@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  body: MyText
+  belongs_to: 
+  belongs_to: 
+
+two:
+  body: MyText
+  belongs_to: 
+  belongs_to: 

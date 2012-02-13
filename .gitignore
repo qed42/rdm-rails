@@ -1,0 +1,15 @@
+tmp/restart.txt
+log/*.log
+tmp/**/*
+tmp/*.pid
+config/database.yml
+db/*.sqlite3
+db/sphinx/**/*
+log/*.pid
+config/*.sphinx.conf
+config/sphinx.conf
+config/rubyrep_*.conf
+public/uploads/**/*
+uploads/**/*
+.bundle
+vendor/bundle

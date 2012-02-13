@@ -1,0 +1,10 @@
+<div class="post">
+  <h2><%= link_to post.title, post %></h2>
+  <p><%= truncate(post.body, :length => 300, :separator => ' ') %></p>
+  <div class="post-meta">
+    <%= link_to post.user.username, post.user %> on <%= post.created_at %>
+    &nbsp;&nbsp; |&nbsp;&nbsp;
+    <span class="category"><%= post.category.name %></span>
+  </div>
+</div>
+<div class="listing-separator"></div>

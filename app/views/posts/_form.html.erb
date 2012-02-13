@@ -1,0 +1,17 @@
+<% form_for @post do |f| %>
+  <%= errors(@post) %>
+  <p>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :body %>
+    <%= f.text_area :body %>
+  </p>
+  <p>
+    <%= f.label :category %>
+    <%= select("post", "category_id", Category.all.collect {|c| [ c.name, c.id ] }, {:include_blank => 'None'}) %>
+  </p>
+
+  <p><%= f.submit "Submit" %></p>
+<% end %>
